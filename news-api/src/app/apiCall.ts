@@ -7,6 +7,6 @@ import { Observable } from 'rxjs/Observable';
 export class ApiCall {
   constructor(public http: Http) { }
   callApi() {
-    return this.http.get('https://newsapi.org/v2/everything?q=bitcoin&from=2019-03-10&sortBy=publishedAt&apiKey=402a12f57a0545618f8dbe1d5ce49af5');
+    return this.http.get('https://newsapi.org/v2/everything?q=cryptocurrency&from=2019-03-10&sortBy=publishedAt&apiKey=402a12f57a0545618f8dbe1d5ce49af5');
   }
 }
